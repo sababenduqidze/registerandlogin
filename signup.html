@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="font.css" />
+    <link rel="stylesheet" href="signup.css" />
+    <title>signup</title>
+  </head>
+  <body>
+    <section class="container">
+      <h1>Sign Up</h1>
+      <h3>Please fill in this form to create an account!</h3>
+      <form>
+        <label for="firstname"></label>
+        <input
+          type="text"
+          id="firstname"
+          placeholder="First Name"
+          class="firstlast"
+        />
+        <label for="lastname"></label>
+        <input
+          type="text"
+          id="lastname"
+          placeholder="Last Name"
+          class="firstlast"
+        />
+        <div>
+          <label for="email"></label>
+          <input type="email" id="email" placeholder="Email" />
+        </div>
+        <div>
+          <label for="password"></label>
+          <input type="password" id="password" placeholder="Password" />
+        </div>
+        <div>
+          <label for="confirmpass"></label>
+          <input
+            type="password"
+            id="confirmpass"
+            placeholder="Confirm Password"
+          />
+        </div>
+        <div class="checkbx">
+          <label for="checkbox"></label>
+          <input type="checkbox" id="checkbox" /><span>I accept the </span
+          ><span style="color: #3598dc">Terms of Use </span><span>& </span>
+          <span style="color: #3598dc">Privacy Policy</span>
+        </div>
+        <button><span style="color: white">Sign Up</span></button>
+      </form>
+      <div class="supp">
+        <span>Already have an Account? </span
+        ><a href="login.html">Login here</a>
+      </div>
+    </section>
+  </body>
+</html>

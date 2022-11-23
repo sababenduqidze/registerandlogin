@@ -1,0 +1,86 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #3598dc;
+}
+.container {
+  width: 400px;
+  height: 500px;
+  background-color: white;
+  margin-left: 450px;
+  margin-top: 50px;
+}
+h1 {
+  font-size: 30px;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+h3 {
+  font-size: 13px;
+  padding-top: 20px;
+  padding-left: 30px;
+  color: gray;
+  margin-bottom: 20px;
+}
+#firstname {
+  margin-left: 30px;
+}
+#lastname {
+  margin-left: 10px;
+}
+.firstlast {
+  width: 140px;
+  height: 40px;
+  background-color: #f2f2f2;
+  border: 0px;
+  border-radius: 3%;
+  margin-bottom: 20px;
+}
+#email {
+  width: 295px;
+  height: 40px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  border: 0px;
+  border-radius: 3%;
+  background-color: #f2f2f2;
+}
+#password {
+  width: 295px;
+  height: 40px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  border: 0px;
+  border-radius: 3%;
+  background-color: #f2f2f2;
+}
+#confirmpass {
+  width: 295px;
+  height: 40px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  border: 0px;
+  border-radius: 3%;
+  background-color: #f2f2f2;
+}
+.checkbx {
+  font-size: 14px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+button {
+  width: 150px;
+  height: 40px;
+  margin-left: 30px;
+  background-color: #3598dc;
+  border: 0px;
+  border-radius: 3%;
+  margin-bottom: 80px;
+}
+.supp {
+  margin-left: 50px;
+  color: white;
+}
+a {
+  color: white;
+}
